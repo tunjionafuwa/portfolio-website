@@ -57,6 +57,10 @@ a:hover {
     text-decoration-color: rgb(181, 181, 181);
 }
 
+.logo {
+    font-size: 2rem;
+}
+
 .logo:hover {
     cursor: default;
 }
@@ -97,7 +101,6 @@ a:hover {
     max-height: 0;
     overflow: hidden;
     transition: all 0.3 ease-in-out;
-    text-align: left;
 }
 
 .menu-links a {
@@ -112,8 +115,6 @@ a:hover {
 
 .menu-links li {
     list-style: none;
-    width: 100%;
-    text-align: right;
 }
 
 .menu-links.open {
@@ -165,7 +166,7 @@ section {
 #profile {
     display: flex;
     justify-content: center;
-    gap: 10rem;
+    gap: 5rem;
     height: 80vh;
 }
 
